@@ -1,0 +1,86 @@
+.container{
+	margin: 0 auto;
+	background-color: #D4EBEB;
+}
+.icon{
+	margin: 20% auto 5%;
+}
+.move-ad{
+	color: #18654B;
+	font-size: 20pt;
+	font-family: helvetica;
+}
+.log-input{
+	text-line-through-color: #0D7760;
+	font-size: 17pt;
+	font-family: "微软雅黑";
+	
+}
+.login{
+	border: 2pt solid white;
+	border-radius: 20pt;
+	background-color: white;
+	margin: 5% 10% ;
+}
+.inputs{
+	background-color: none;
+}
+.block{
+	height: 500pt;
+}
+.input-a{
+	margin-left: 40%;
+	margin-right: -10%;
+	font-size: 15pt;
+	color: grey;
+}
+.input-img1{
+	margin-bottom: -7%;
+	width: 10pt;
+}
+.input-img2{
+	margin-bottom: -15%;
+	width: 10pt;
+}
+.login-btn{
+	width: 80%;
+	height: 38pt;
+	margin: 22pt auto;
+	border: 0pt solid white;
+	border-radius: 20pt;
+	font-size: 14pt;
+	background-color: #63A596;
+	color: white;
+}
+.login-bottom{
+	margin:0 auto;
+	font-size: 10pt;
+	width: 80%;
+	position: relative;
+	color: #88B0A8
+}
+.bot-left{
+	position: absolute;
+	left: 0;
+	color: #88B0A8;
+}
+.bot-right{
+	position: absolute;
+	right: 0;
+	color: #88B0A8;
+}
+.input-img{
+	margin-bottom: -2%;
+	margin-left: 5%;
+	margin-right: -5%;
+	width: 10pt;
+}
+.input-imgf{
+	margin-bottom: -2%;
+	margin-left: 10%;
+	margin-right: -5%;
+	width: 10%;
+}
+#tologin{
+	color: #88B0A8
+}

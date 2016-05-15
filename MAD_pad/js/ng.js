@@ -1,0 +1,45 @@
+var mad=angular.module('mad',[]);
+mad.controller('mad',['$scope','$http',function($scope,$http){
+	$scope.test="ss";
+	$scope.getads=function(){
+		$http.get(severUrl+'/advert/all/'+userId+"?token="+token).then(function(response){
+			$scope.ads=response.data.adList;
+			console.log(JSON.stringify(response));
+			console.log($scope.ads)
+		},function(error){
+			console.log(error);
+		});
+	}; 
+	$scope.getads();
+	console.log($scope.ads);
+}]);
+mad.controller('madUser',['$scope','$http',function($scope,$http){
+	$scope.getInfo=function(){
+		$http.get(severUrl+'/account/'+userId+'?token='+token).then(function(response){
+			$scope.info=response.data;
+			console.log(response);
+		},function(error){
+			
+		});
+	};
+	$scope.getInfo();
+}]);
+mad.controller('madMsg',['$scope','$http',function($scope,$http){
+	$scope.getMsg=function(){
+		$http.get(severUrl+'/msglist/'+userId+'?token='+token).then(function(response){
+			$scope.msglist=response.data.messageList;
+		},function(error){
+			console.log(error);
+		})
+	};
+	$scope.getMsg();   
+}]);
+mad.controller('madWdh',['$scope','$http',function($scope,$http){
+	$scope.getHistory=function(){
+		$http.get(severUrl+'/withdraw/'+userId+'?token='+token).then(function(response){
+			$scope.historyList=response.data.withdrawHistory;
+		},function(error){
+			console.log(error);
+		})
+	}
+}])
