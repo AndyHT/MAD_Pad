@@ -1,0 +1,918 @@
+{
+    "13564039693@163-com": {
+        "Alipay": "testAlipay",
+        "balance": 1900,
+        "check": true,
+        "currentBroadcast": 0,
+        "email": "13564039693@163.com",
+        "message": {
+            "-KHwJYTccmrE2a_W6gBU": {
+                "content": "恭喜您通过审核!",
+                "date": "2016-05-17 09:26:26"
+            },
+            "-KHwJk3DFQGeThgu_-pD": {
+                "content": "抱歉您的申请没有通过!原因: aaa",
+                "date": "2016-05-17 09:27:17"
+            },
+            "-KHwetGkc7akgjSH5F5V": {
+                "content": "恭喜您通过审核!",
+                "date": "2016-05-17 11:04:02"
+            },
+            "-KI1zgcGYYsmbWy-bOtu": {
+                "content": "抱歉您的申请没有通过!原因: asjdjkfsjd",
+                "date": "2016-05-18 16:32:38"
+            },
+            "-KIWrI1-nx6E_PICm3ck": {
+                "content": "恭喜您通过审核!",
+                "date": "2016-05-24 16:24:10"
+            }
+        },
+        "name": "MandyXue",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "recharge": {
+            "-KHjYoZTfpAX-_2hjzGB": {
+                "account": "MandyXue",
+                "amount": 100,
+                "status": "01",
+                "time": "2016-05-14 21:58:04"
+            },
+            "-KIIOXaG15EaI8tecV8X": {
+                "account": "dddd",
+                "amount": 100,
+                "status": "01",
+                "time": "2016-05-21 20:59:29"
+            }
+        },
+        "refund": {
+            "-KIIMVuTMIEOj0m0x1DD": {
+                "account": "123",
+                "amount": 100,
+                "status": "01",
+                "time": "2016-05-21 20:50:38"
+            }
+        },
+        "registerDate": "2016-05-14 21:45:01",
+        "status": "100"
+    },
+    "843018739@qq-com": {
+        "Alipay": "",
+        "balance": 1000,
+        "check": true,
+        "currentBroadcast": 0,
+        "email": "843018739@qq.com",
+        "message": {
+            "-KI3OfDDCZNFC2qhHkBT": {
+                "content": "恭喜您通过审核!",
+                "date": "2016-05-18 23:05:45"
+            },
+            "-KIWrJKAtDhUehin1n5D": {
+                "content": "抱歉您的申请没有通过!原因: aaa",
+                "date": "2016-05-24 16:24:15"
+            }
+        },
+        "name": "teng",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "registerDate": "2016-05-14 20:38:02",
+        "status": "001"
+    },
+    "ljyscjhbb@qq-com": {
+        "Alipay": "123",
+        "balance": 400,
+        "check": true,
+        "currentBroadcast": 0,
+        "detail": {
+            "accomodation": "123",
+            "businessPeriod": "Invalid date",
+            "businessScope": "123",
+            "companyName": "123",
+            "contactEmail": "1",
+            "legalPerson": {
+                "id": "123",
+                "iflegalperson": "true",
+                "iflongterm": true,
+                "location": "澳门",
+                "name": "123",
+                "validDate": "长期"
+            },
+            "licenseCode": "123",
+            "licenseImageUrl": "http://img.jdzj.com/UserDocument/2013b/wuxibangyao/Picture/201372694821.jpg",
+            "licenseType": "多证合一营业执照",
+            "location": "上海,黄浦区",
+            "organizationCode": "1",
+            "periodIsLong": true,
+            "type": "企业"
+        },
+        "email": "ljyscjhbb@qq.com",
+        "message": {
+            "-KI3PJMGKhMDwH2ziId0": {
+                "content": "抱歉您的申请没有通过!原因: 就不让你过气死你",
+                "date": "2016-05-18 23:08:34"
+            },
+            "-KI79b8sd6LxRZwDZRIF": {
+                "content": "您的充值申请(充值金额: 100 元)已经通过审核。",
+                "date": "2016-05-19 16:38:26"
+            },
+            "-KI79lo5DsuHpUaB-N5y": {
+                "content": "您的充值申请(充值金额: 100 元)未能通过审核,原因：未收到钱款。",
+                "date": "2016-05-19 16:39:09"
+            },
+            "-KI7A0bOsBW5MFFsDmpq": {
+                "content": "您的充值申请(充值金额: 100 元)未能通过审核,原因：未收到钱款。",
+                "date": "2016-05-19 16:40:14"
+            },
+            "-KI7AD6TNlUIZ5tjozsA": {
+                "content": "您的充值申请(充值金额: 100 元)未能通过审核,原因：未收到钱款。",
+                "date": "2016-05-19 16:41:05"
+            },
+            "-KI7AJ5_zZizR7Da-QOU": {
+                "content": "您的充值申请(充值金额: 100 元)已经通过审核。",
+                "date": "2016-05-19 16:41:30"
+            },
+            "-KI7AszH1NqGNF-OSnDz": {
+                "content": "您的退款申请(退款金额: 1 元)已经通过审核。",
+                "date": "2016-05-19 16:44:01"
+            },
+            "-KI7B1WYZbsG2nfji31h": {
+                "content": "您的退款申请(退款金额: 1 元)未能通过审核。",
+                "date": "2016-05-19 16:44:40"
+            },
+            "-KIWqyQrcIuVgg9rwzTV": {
+                "content": "抱歉您的申请没有通过!原因: www",
+                "date": "2016-05-24 16:22:46"
+            }
+        },
+        "name": "ljyscjhbb",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "recharge": {
+            "-KHu7m1Iq5etP8XENVSz": {
+                "account": "123",
+                "amount": 100,
+                "status": false,
+                "time": "2016-05-16 23:15:45"
+            }
+        },
+        "refund": {
+            "-KHu7m1Iq5etP8XENVSz": {
+                "status": false
+            },
+            "-KHu9ot1Vaf9LGfJ5eK_": {
+                "account": "123",
+                "amount": 1,
+                "status": true,
+                "time": "2016-05-16 23:24:41"
+            },
+            "-KHuAafCKdqA7oT1tdVe": {
+                "account": "123",
+                "amount": 1,
+                "status": false,
+                "time": "2016-05-16 23:28:05"
+            }
+        },
+        "registerDate": "2016-05-16 21:31:51",
+        "status": "010"
+    },
+    "test1@test-com": {
+        "Alipay": "test",
+        "balance": 1806,
+        "check": true,
+        "currentBroadcast": 0,
+        "detail": {
+            "accomodation": "曹安公路4800号",
+            "businessPeriod": "Invalid date",
+            "businessScope": "乱七八糟",
+            "companyName": "MAD",
+            "contactEmail": "1234@qq.com",
+            "legalPerson": {
+                "id": "123456789097891273912783",
+                "iflegalperson": "true",
+                "iflongterm": true,
+                "location": "中国大陆",
+                "name": "不知道",
+                "validDate": "长期"
+            },
+            "licenseCode": "11111111111111",
+            "licenseImageUrl": "http://img.jdzj.com/UserDocument/2013b/wuxibangyao/Picture/201372694821.jpg",
+            "licenseType": "普通营业执照",
+            "location": "上海,黄浦区",
+            "organizationCode": "0000000111111",
+            "periodIsLong": true,
+            "type": "企业"
+        },
+        "email": "test1@test.com",
+        "expiration": "",
+        "message": {
+            "-KGLUUUJTOTUw7dPFgET": {
+                "content": "ABCDEFG",
+                "date": "2016-04-27 14:52:57"
+            },
+            "-KGLUbJx1XGYM6iA6jKk": {
+                "content": "ABCDEFG",
+                "date": "2016-04-27 14:53:29"
+            },
+            "-KH--TbujV6LOfzNnViZ": {
+                "content": "您的广告-KGI01Y-wrlgLU6WCQkS被下架了，原因是：ABCDEF",
+                "date": "2016-05-05 16:21:30"
+            },
+            "-KH-00z6RWyzrKpw7AqM": {
+                "content": "您的广告-KGI01Y-wrlgLU6WCQkS被下架了，原因是：ABCDEF",
+                "date": "2016-05-05 16:23:54"
+            },
+            "-KH2iHIsq4L1LUZrElbm": {
+                "content": "您的广告-KGvqCzfudZBX50GU27l已通过审核",
+                "date": "2016-05-06 09:40:29"
+            },
+            "-KH34PHekhIog1YEOlTx": {
+                "content": "您的广告-KGvqCzfudZBX50GU27l已通过审核",
+                "date": "2016-05-06 11:21:30"
+            },
+            "-KH34R52SRY33rl2Y2ko": {
+                "content": "您的广告-KGvqCzfudZBX50GU27l未通过审核",
+                "date": "2016-05-06 11:21:37"
+            },
+            "-KHL8o3-b-jE5hrCHmbm": {
+                "content": "您的广告-KHE6HrbkpLv-WQal7rG已通过审核",
+                "date": "2016-05-09 23:33:55"
+            },
+            "-KHL8pxcFMvM4EPhUFe0": {
+                "content": "您的广告-KHE6HrbkpLv-WQal7rG未通过审核",
+                "date": "2016-05-09 23:34:03"
+            },
+            "-KHL8tNYLtaeu8rRlseq": {
+                "content": "您的广告-KHE6HrbkpLv-WQal7rG已通过审核",
+                "date": "2016-05-09 23:34:17"
+            },
+            "-KHL9ElDsTUOu2W59Y7h": {
+                "content": "您的广告-KHE6HrbkpLv-WQal7rG未通过审核",
+                "date": "2016-05-09 23:35:48"
+            },
+            "-KHLCRuv4mmMpQPXmxCA": {
+                "content": "您的广告-KGvqCzfudZBX50GU27l被下架了，原因是：you guess",
+                "date": "2016-05-09 23:49:49"
+            },
+            "-KHLCSYVPMYtIr6QkHre": {
+                "content": "您的广告-KGvqCzfudZBX50GU27l被下架了，原因是：you guess",
+                "date": "2016-05-09 23:49:51"
+            },
+            "-KHLDGrVQgV5HK4UEzev": {
+                "content": "您的广告-KHEDW3DFpeOMYL6lbsO被下架了，原因是：你猜啊哈哈哈哈",
+                "date": "2016-05-09 23:53:25"
+            },
+            "-KHLDXoCu8TFjfNgX0Ok": {
+                "content": "您的广告-KHEDgxQWiIrvXv-6fs_被下架了，原因是：啊啊啊哈哈",
+                "date": "2016-05-09 23:54:35"
+            },
+            "-KHLDsD5u_6TntlfaEWV": {
+                "content": "您的广告-KHEDW3DFpeOMYL6lbsO被下架了，原因是：哈哈",
+                "date": "2016-05-09 23:56:03"
+            },
+            "-KHLFg4kUH_WGmiyE_XB": {
+                "content": "您的广告-KHEDW3DFpeOMYL6lbsO被下架了，原因是：测试啊啊",
+                "date": "2016-05-10 00:03:58"
+            },
+            "-KHLFw1ynUYVk8Iww6wq": {
+                "content": "您的广告-KHEDW3DFpeOMYL6lbsO被下架了，原因是：00",
+                "date": "2016-05-10 00:05:03"
+            },
+            "-KHNbD2Nv5xiUiIX9hCP": {
+                "content": "您的广告-KHE5at1fqlvIxabaetC被下架了，原因是：111",
+                "date": "2016-05-10 11:01:38"
+            },
+            "-KHNcDWGd7pcygn-JCQX": {
+                "content": "您的广告-KHE5at1fqlvIxabaetC被下架了，原因是：111",
+                "date": "2016-05-10 11:06:02"
+            },
+            "-KHNdbDC85_svN3BtXEL": {
+                "content": "您的广告-KHE5at1fqlvIxabaetC被下架了，原因是：222",
+                "date": "2016-05-10 11:12:05"
+            },
+            "-KHNe6egcMpELjYtuNw9": {
+                "content": "您的广告-KHE5at1fqlvIxabaetC被下架了，原因是：2222",
+                "date": "2016-05-10 11:14:18"
+            },
+            "-KHNefnmBd2WsVS414qW": {
+                "content": "您的广告-KHE5at1fqlvIxabaetC被下架了，原因是：dddd",
+                "date": "2016-05-10 11:16:46"
+            },
+            "-KHNfVc1uY0adfySeTya": {
+                "content": "您的广告-KHE5at1fqlvIxabaetC被下架了，原因是：undefined",
+                "date": "2016-05-10 11:20:23"
+            },
+            "-KHNfe0Em-wYkX_CTWZk": {
+                "content": "您的广告-KHE5at1fqlvIxabaetC被下架了，原因是：undefined",
+                "date": "2016-05-10 11:21:01"
+            },
+            "-KHPrTMBiuJx9lEQ4eJW": {
+                "content": "您的广告-KHE5at1fqlvIxabaetC已通过审核",
+                "date": "2016-05-10 21:31:53"
+            },
+            "-KHPr_L6wxUI5DkTQoeF": {
+                "content": "您的广告-KHE5at1fqlvIxabaetC未通过审核",
+                "date": "2016-05-10 21:32:22"
+            },
+            "-KHPrfSZgrhcZIiGjdgS": {
+                "content": "您的广告-KHE5at1fqlvIxabaetC已通过审核",
+                "date": "2016-05-10 21:32:47"
+            },
+            "-KHPruXWt0VZBTEJWLGN": {
+                "content": "您的广告-KHE5at1fqlvIxabaetC被下架了，原因是：11111",
+                "date": "2016-05-10 21:33:49"
+            },
+            "-KHSc3bOSOc53cI06H3A": {
+                "content": "您的广告-KHELKvCvUUfny4bcTsu已通过审核",
+                "date": "2016-05-11 10:23:28"
+            },
+            "-KHSi8qq0yvufuWLUQEx": {
+                "content": "您的广告-KGvqCzfudZBX50GU27l被下架了，原因是：wqe",
+                "date": "2016-05-11 10:50:02"
+            },
+            "-KHmQznuf_gjP9jbQOaC": {
+                "content": "您的广告-KGvqCzfudZBX50GU27l已通过审核",
+                "date": "2016-05-15 11:22:42"
+            },
+            "-KHmRfeDwBF6d4SkJMGB": {
+                "content": "您的广告-KHAKo8GstXkFjSi36_t已通过审核",
+                "date": "2016-05-15 11:25:42"
+            },
+            "-KHmRidgdILCBXA848T7": {
+                "content": "您的广告-KHE5at1fqlvIxabaetC未通过审核",
+                "date": "2016-05-15 11:25:54"
+            },
+            "-KHmRpnb96x430R3mNGm": {
+                "content": "您的广告-KHE6HrbkpLv-WQal7rG被下架了，原因是：aaa",
+                "date": "2016-05-15 11:26:23"
+            },
+            "-KHmUB2zGY4d22G_25HZ": {
+                "content": "您的广告-KHE6PoBmkvnCb3JsYbW被下架了，原因是：aaa",
+                "date": "2016-05-15 11:36:39"
+            },
+            "-KHtvAd9TQiiY5XIlX93": {
+                "content": "您的广告-KGvqCzfudZBX50GU27l未通过审核 理由: undefined",
+                "date": "2016-05-16 22:16:20"
+            },
+            "-KHtvBNNeUuvJH022gL1": {
+                "content": "您的广告-KGvqCzfudZBX50GU27l未通过审核 理由: undefined",
+                "date": "2016-05-16 22:16:23"
+            },
+            "-KHtvIJP2ZcGtYVoEaqD": {
+                "content": "您的广告-KGvqCzfudZBX50GU27l未通过审核 理由: undefined",
+                "date": "2016-05-16 22:16:51"
+            },
+            "-KHtvRjDzaIq8kl-hFTl": {
+                "content": "您的广告-KHtuHb2BiTRp2au_S9b未通过审核 理由: undefined",
+                "date": "2016-05-16 22:17:30"
+            },
+            "-KHtv_gflmJlwP5uvE-0": {
+                "content": "您的广告-KHiwGYlonm0gQpB4GRW未通过审核 理由: undefined",
+                "date": "2016-05-16 22:18:07"
+            },
+            "-KIITbzbMujqTpgfuTwl": {
+                "content": "您的广告-KGvqCzfudZBX50GU27l未通过审核 理由: undefined",
+                "date": "2016-05-21 21:21:41"
+            },
+            "-KIIToCzCYXC6HOSDBe3": {
+                "content": "您的广告-KHE6HrbkpLv-WQal7rG未通过审核 理由: 要啥自行车",
+                "date": "2016-05-21 21:22:31"
+            },
+            "-KIITtrN2VHApTQ5mEfN": {
+                "content": "您的广告-KHAKo8GstXkFjSi36_t被下架了，原因是：不爽",
+                "date": "2016-05-21 21:22:54"
+            },
+            "-KIIVWSiValzahPNlaLA": {
+                "content": "您的广告-KHYty4OTt6wNSJRUQgz未通过审核 理由: undefined",
+                "date": "2016-05-21 21:29:59"
+            },
+            "-KIIWUGma8OJtIUXvZnH": {
+                "content": "您的广告-KHYty4OTt6wNSJRUQgz未通过审核 理由: undefined",
+                "date": "2016-05-21 21:34:12"
+            },
+            "-KIIWsjc4lUc1SiMSCE7": {
+                "content": "您的广告-KI1ZjyHY1mcmPXVzzJR未通过审核 理由: test",
+                "date": "2016-05-21 21:35:56"
+            },
+            "-KIIX8bpjW2kwPooASmN": {
+                "content": "您的广告-KI1ZjyHY1mcmPXVzzJR未通过审核 理由: test",
+                "date": "2016-05-21 21:37:05"
+            },
+            "-KIVxI5zcLNDKgdrduJI": {
+                "content": "您的退款申请(退款金额: 10 元)已经通过审核。",
+                "date": "2016-05-24 12:10:46"
+            },
+            "-KIVxMEF1rDqEjBFoEtm": {
+                "content": "您的退款申请(退款金额: 10 元)未能通过审核。",
+                "date": "2016-05-24 12:11:03"
+            }
+        },
+        "name": "测试账户",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "recharge": {
+            "-KHSqJb_5kkwiTGFS8YF": {
+                "account": "testAlipay",
+                "amount": "50",
+                "status": "01",
+                "time": "2016-05-11 11:25:44"
+            },
+            "-KHSqRWnAPiEdEunCYrz": {
+                "account": "testAlipay",
+                "amount": "200",
+                "status": "01",
+                "time": "2016-05-11 11:26:16"
+            },
+            "-KHTiI_CZBOgd8Fq3z8c": {
+                "account": "test",
+                "amount": "100",
+                "status": "01",
+                "time": "2016-05-11 15:30:19"
+            },
+            "-KHZ5jVmhgZjSBG58Wqs": {
+                "account": "112234",
+                "amount": "200",
+                "status": "01",
+                "time": "2016-05-12 16:35:11"
+            },
+            "-KHZ7qQWVnYI1k_cfWpZ": {
+                "account": "1111",
+                "amount": 100,
+                "status": "01",
+                "time": "2016-05-12 16:44:24"
+            }
+        },
+        "refund": {
+            "-KHSqbWZ_rv7I2JfnFzK": {
+                "account": "testAlipay",
+                "amount": 50,
+                "status": "01",
+                "time": "2016-05-11 11:27:01"
+            },
+            "-KHSqheJWI73tcTEiVG1": {
+                "account": "testAlipay",
+                "amount": 100,
+                "status": "01",
+                "time": "2016-05-11 11:27:27"
+            },
+            "-KHXoHpdkYAZgGSZd1EP": {
+                "account": "test",
+                "amount": 10,
+                "status": true,
+                "time": "2016-05-12 10:35:07"
+            },
+            "-KHXoNcZVtM_ilc6zLO_": {
+                "account": "test",
+                "amount": 10,
+                "status": "01",
+                "time": "2016-05-12 10:35:31"
+            },
+            "-KHXoYYlKdWMNzgWACl0": {
+                "account": "test",
+                "amount": 10,
+                "status": false,
+                "time": "2016-05-12 10:36:16"
+            },
+            "-KHXokFyGZBEdmHkWV9h": {
+                "account": "test",
+                "amount": 10,
+                "status": true,
+                "time": "2016-05-12 10:37:08"
+            },
+            "-KHXonCNGp-wncEdnR1M": {
+                "account": "lalalala",
+                "amount": 10,
+                "status": true,
+                "time": "2016-05-12 10:37:20"
+            },
+            "-KHXp6tZXG8pir6z8Oyr": {
+                "account": "hahhahaha",
+                "amount": 123,
+                "status": false,
+                "time": "2016-05-12 10:38:44"
+            },
+            "-KHXpGY4KdKmJa1y-mUv": {
+                "account": "lalalalaksdjfas",
+                "amount": 22,
+                "status": "01",
+                "time": "2016-05-12 10:39:24"
+            },
+            "-KHXsZwlXp-TbZLroEWz": {
+                "account": "test",
+                "amount": 10,
+                "status": "01",
+                "time": "2016-05-12 10:53:50"
+            },
+            "-KI2vbclfm2-C9SGUI-I": {
+                "account": "test",
+                "amount": 122,
+                "status": true,
+                "time": "2016-05-18 20:54:30"
+            }
+        },
+        "registerDate": "2016-04-15 10:00:00",
+        "status": "100",
+        "token": "testtoken"
+    },
+    "test2@test-com": {
+        "Alipay": "String",
+        "balance": 101,
+        "check": false,
+        "currentBroadcast": 110,
+        "detail": {
+            "accomodation": "String",
+            "businessPeriod": "Date",
+            "businessScope": "String",
+            "companyname": "String",
+            "contactemail": "String",
+            "legalPerson": {
+                "id": "String",
+                "ifLegalPerson": true,
+                "ifLongTerm": true,
+                "location": "String",
+                "name": "String",
+                "validDate": "Date"
+            },
+            "licenseCode": "String",
+            "licenseImageUrl": "String",
+            "licenseNum": "String",
+            "licenseType": "String",
+            "location": "String",
+            "organizationCode": "String",
+            "registerDate": "Date",
+            "type": "String"
+        },
+        "email": "String",
+        "expiration": "",
+        "message": {
+            "-KGLUnjv0Vk5wnrhLQtK": {
+                "content": "ABCDEFG",
+                "date": "2016-04-27 14:54:20"
+            },
+            "messageId1": {
+                "content": "String",
+                "date": "Date"
+            },
+            "messageId2": {
+                "content": "String",
+                "date": "Date"
+            }
+        },
+        "name": "String",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "recharge": {
+            "-KGHcV3HYR3Y-6AYWyNe": {
+                "account": "testAlipay",
+                "amount": "100",
+                "status": "String",
+                "time": "2016-04-26 08:53:50"
+            }
+        },
+        "refund": {
+            "-KGqqZnaOilOv9OKUYxV": {
+                "account": "testAlipay",
+                "amount": 50,
+                "status": false,
+                "time": "2016-05-03 21:41:39"
+            }
+        },
+        "registerDate": "2016-04-15 10:00:00",
+        "status": "010",
+        "token": ""
+    },
+    "x5hajpg@qq-com": {
+        "Alipay": "123",
+        "balance": 1000,
+        "check": true,
+        "currentBroadcast": 0,
+        "email": "x5hajpg@qq.com",
+        "name": "123",
+        "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225",
+        "registerDate": "2016-05-21 20:46:35",
+        "status": "010"
+    },
+    "test1@163-com": {
+        "Alipay": "test1@163.com",
+        "balance": 10000,
+        "check": true,
+        "currentBroadcast": 500,
+        "detail": {
+            "accomodation": "曹安公路4800号",
+            "businessPeriod": "2020-01-01 00:00:00",
+            "companyName": "随意",
+            "contactEmail": "test1@163.com",
+            "legalPerson": {
+                "id": "123456789097891273912783",
+                "iflegalperson": true,
+                "iflongterm": true,
+                "location": "中国大陆",
+                "name": "不知道",
+                "validDate": "长期"
+            },
+            "licenseCode": "111111111111111111111",
+            "licenseImageUrl": "http://img.jdzj.com/UserDocument/2013b/wuxibangyao/Picture/201372694821.jpg",
+            "licenseType": "普通营业执照",
+            "location": "上海，嘉定区",
+            "organizationCode": "00000101010101010",
+            "periodIsLong": true,
+            "type": "企业"
+        },
+        "email": "test1@163.com",
+        "name": "刘喜洋",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "registerDate": "2016-05-15 10:00:00",
+        "status": "100",
+        "token": "testtoken"
+    },
+    "test2@qq-com": {
+        "Alipay": "test2@qq.com",
+        "balance": 10000,
+        "check": true,
+        "currentBroadcast": 500,
+        "detail": {
+            "accomodation": "曹安公路4800号",
+            "businessPeriod": "2020-01-01 00:00:00",
+            "companyName": "随意",
+            "contactEmail": "test2@qq.com",
+            "legalPerson": {
+                "id": "123456789097891273912783",
+                "iflegalperson": true,
+                "iflongterm": true,
+                "location": "中国大陆",
+                "name": "不知道",
+                "validDate": "长期"
+            },
+            "licenseCode": "111111111111111111111",
+            "licenseImageUrl": "http://img.jdzj.com/UserDocument/2013b/wuxibangyao/Picture/201372694821.jpg",
+            "licenseType": "普通营业执照",
+            "location": "上海，嘉定区",
+            "organizationCode": "00000101010101010",
+            "periodIsLong": true,
+            "type": "企业"
+        },
+        "email": "test2@qq.com",
+        "name": "梁朝伟",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "registerDate": "2016-05-15 10:00:00",
+        "status": "100",
+        "token": "testtoken"
+    },
+    "test3@126-com": {
+        "Alipay": "test3@126.com",
+        "balance": 10000,
+        "check": true,
+        "currentBroadcast": 500,
+        "detail": {
+            "accomodation": "曹安公路4800号",
+            "businessPeriod": "2020-01-01 00:00:00",
+            "companyName": "随意",
+            "contactEmail": "test3@126.com",
+            "legalPerson": {
+                "id": "123456789097891273912783",
+                "iflegalperson": true,
+                "iflongterm": true,
+                "location": "中国大陆",
+                "name": "不知道",
+                "validDate": "长期"
+            },
+            "licenseCode": "111111111111111111111",
+            "licenseImageUrl": "http://img.jdzj.com/UserDocument/2013b/wuxibangyao/Picture/201372694821.jpg",
+            "licenseType": "普通营业执照",
+            "location": "上海，嘉定区",
+            "organizationCode": "00000101010101010",
+            "periodIsLong": true,
+            "type": "企业"
+        },
+        "email": "test3@126.com",
+        "name": "金三胖",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "registerDate": "2016-05-15 10:00:00",
+        "status": "100",
+        "token": "testtoken"
+    },
+    "test4@tongji-edu-cn": {
+        "Alipay": "test4@tongji.edu.cn",
+        "balance": 10000,
+        "check": true,
+        "currentBroadcast": 500,
+        "detail": {
+            "accomodation": "曹安公路4800号",
+            "businessPeriod": "2020-01-01 00:00:00",
+            "companyName": "随意",
+            "contactEmail": "test4@tongji.edu.cn",
+            "legalPerson": {
+                "id": "123456789097891273912783",
+                "iflegalperson": true,
+                "iflongterm": true,
+                "location": "中国大陆",
+                "name": "不知道",
+                "validDate": "长期"
+            },
+            "licenseCode": "111111111111111111111",
+            "licenseImageUrl": "http://img.jdzj.com/UserDocument/2013b/wuxibangyao/Picture/201372694821.jpg",
+            "licenseType": "普通营业执照",
+            "location": "上海，嘉定区",
+            "organizationCode": "00000101010101010",
+            "periodIsLong": true,
+            "type": "企业"
+        },
+        "email": "test4@tongji.edu.cn",
+        "name": "张三",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "registerDate": "2016-05-15 10:00:00",
+        "status": "100",
+        "token": "testtoken"
+    },
+    "test5@hotmail-com": {
+        "Alipay": "test5@hotmail.com",
+        "balance": 10000,
+        "check": true,
+        "currentBroadcast": 500,
+        "detail": {
+            "accomodation": "曹安公路4800号",
+            "businessPeriod": "2020-01-01 00:00:00",
+            "companyName": "随意",
+            "contactEmail": "test5@hotmail.com",
+            "legalPerson": {
+                "id": "123456789097891273912783",
+                "iflegalperson": true,
+                "iflongterm": true,
+                "location": "中国大陆",
+                "name": "不知道",
+                "validDate": "长期"
+            },
+            "licenseCode": "111111111111111111111",
+            "licenseImageUrl": "http://img.jdzj.com/UserDocument/2013b/wuxibangyao/Picture/201372694821.jpg",
+            "licenseType": "普通营业执照",
+            "location": "上海，嘉定区",
+            "organizationCode": "00000101010101010",
+            "periodIsLong": true,
+            "type": "企业"
+        },
+        "email": "test5@hotmail.com",
+        "name": "李四",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "registerDate": "2016-05-15 10:00:00",
+        "status": "100",
+        "token": "testtoken"
+    },
+    "test6@gmail-com": {
+        "Alipay": "test6@gmail.com",
+        "balance": 10000,
+        "check": true,
+        "currentBroadcast": 500,
+        "detail": {
+            "accomodation": "曹安公路4800号",
+            "businessPeriod": "2020-01-01 00:00:00",
+            "companyName": "随意",
+            "contactEmail": "test6@gmail.com",
+            "legalPerson": {
+                "id": "123456789097891273912783",
+                "iflegalperson": true,
+                "iflongterm": true,
+                "location": "中国大陆",
+                "name": "不知道",
+                "validDate": "长期"
+            },
+            "licenseCode": "111111111111111111111",
+            "licenseImageUrl": "http://img.jdzj.com/UserDocument/2013b/wuxibangyao/Picture/201372694821.jpg",
+            "licenseType": "普通营业执照",
+            "location": "上海，嘉定区",
+            "organizationCode": "00000101010101010",
+            "periodIsLong": true,
+            "type": "企业"
+        },
+        "email": "test6@gmail.com",
+        "name": "王二麻子",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "registerDate": "2016-05-15 10:00:00",
+        "status": "100",
+        "token": "testtoken"
+    },
+    "test7@msn-com": {
+        "Alipay": "test7@msn.com",
+        "balance": 10000,
+        "check": true,
+        "currentBroadcast": 500,
+        "detail": {
+            "accomodation": "曹安公路4800号",
+            "businessPeriod": "2020-01-01 00:00:00",
+            "companyName": "随意",
+            "contactEmail": "test7@msn.com",
+            "legalPerson": {
+                "id": "123456789097891273912783",
+                "iflegalperson": true,
+                "iflongterm": true,
+                "location": "中国大陆",
+                "name": "不知道",
+                "validDate": "长期"
+            },
+            "licenseCode": "111111111111111111111",
+            "licenseImageUrl": "http://img.jdzj.com/UserDocument/2013b/wuxibangyao/Picture/201372694821.jpg",
+            "licenseType": "普通营业执照",
+            "location": "上海，嘉定区",
+            "organizationCode": "00000101010101010",
+            "periodIsLong": true,
+            "type": "企业"
+        },
+        "email": "test7@msn.com",
+        "name": "许二娘",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "registerDate": "2016-05-15 10:00:00",
+        "status": "100",
+        "token": "testtoken"
+    },
+    "test8@aim-com": {
+        "Alipay": "test8@aim.com",
+        "balance": 10000,
+        "check": true,
+        "currentBroadcast": 500,
+        "detail": {
+            "accomodation": "曹安公路4800号",
+            "businessPeriod": "2020-01-01 00:00:00",
+            "companyName": "随意",
+            "contactEmail": "test8@aim.com",
+            "legalPerson": {
+                "id": "123456789097891273912783",
+                "iflegalperson": true,
+                "iflongterm": true,
+                "location": "中国大陆",
+                "name": "不知道",
+                "validDate": "长期"
+            },
+            "licenseCode": "111111111111111111111",
+            "licenseImageUrl": "http://img.jdzj.com/UserDocument/2013b/wuxibangyao/Picture/201372694821.jpg",
+            "licenseType": "普通营业执照",
+            "location": "上海，嘉定区",
+            "organizationCode": "00000101010101010",
+            "periodIsLong": true,
+            "type": "企业"
+        },
+        "email": "test8@aim.com",
+        "name": "卜知道",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "registerDate": "2016-05-15 10:00:00",
+        "status": "100",
+        "token": "testtoken"
+    },
+    "test9@yahoo-com": {
+        "Alipay": "test9@yahoo.com",
+        "balance": 10000,
+        "check": true,
+        "currentBroadcast": 500,
+        "detail": {
+            "accomodation": "曹安公路4800号",
+            "businessPeriod": "2020-01-01 00:00:00",
+            "companyName": "随意",
+            "contactEmail": "test9@yahoo.com",
+            "legalPerson": {
+                "id": "123456789097891273912783",
+                "iflegalperson": true,
+                "iflongterm": true,
+                "location": "中国大陆",
+                "name": "不知道",
+                "validDate": "长期"
+            },
+            "licenseCode": "111111111111111111111",
+            "licenseImageUrl": "http://img.jdzj.com/UserDocument/2013b/wuxibangyao/Picture/201372694821.jpg",
+            "licenseType": "普通营业执照",
+            "location": "上海，嘉定区",
+            "organizationCode": "00000101010101010",
+            "periodIsLong": true,
+            "type": "企业"
+        },
+        "email": "test9@yahoo.com",
+        "name": "潘艺华",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "registerDate": "2016-05-15 10:00:00",
+        "status": "100",
+        "token": "testtoken"
+    },
+    "test10@walla-com": {
+        "Alipay": "test10@walla.com",
+        "balance": 10000,
+        "check": true,
+        "currentBroadcast": 500,
+        "detail": {
+            "accomodation": "曹安公路4800号",
+            "businessPeriod": "2020-01-01 00:00:00",
+            "companyName": "随意",
+            "contactEmail": "test10@walla.com",
+            "legalPerson": {
+                "id": "123456789097891273912783",
+                "iflegalperson": true,
+                "iflongterm": true,
+                "location": "中国大陆",
+                "name": "不知道",
+                "validDate": "长期"
+            },
+            "licenseCode": "111111111111111111111",
+            "licenseImageUrl": "http://img.jdzj.com/UserDocument/2013b/wuxibangyao/Picture/201372694821.jpg",
+            "licenseType": "普通营业执照",
+            "location": "上海，嘉定区",
+            "organizationCode": "00000101010101010",
+            "periodIsLong": true,
+            "type": "企业"
+        },
+        "email": "test10@walla.com",
+        "name": "孙你猜",
+        "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "registerDate": "2016-05-15 10:00:00",
+        "status": "100",
+        "token": "testtoken"
+    }
+}
