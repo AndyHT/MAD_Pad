@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <script src="js/sever.js" type="text/javascript" charset="utf-8"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/gjq.css"/>
+    <script type="text/javascript" charset="UTF-8">
+      	mui.init();
+    </script> 
+</head>
+<body ng-app='mad' ng-controller='pad'>
+		<div class="lat">
+			{{latitude}} 
+			{{longitude}}
+		</div>
+		<div class="notice">
+			{{notice}}	
+		</div>
+	
+	<div class="text" id="intext">
+		
+			
+			<center>{{content}}</center>
+		
+	</div>
+	<div class="mui-text-center btnCtrl" >
+		<button class="mui-badge-blue" ng-click='next()' id="btnId">{{btnText}}</button>
+		<button ng-click="cancelCall()" class='stop' id="stopId" >{{stop}}</button>
+	</div>
+	<script src="js/angular.js" type="text/javascript" charset="utf-8"></script>
+	
+	<script src="js/ng.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		function changeColor(){
+			var color="#f00|#0f0|#00f|#880|#808|#088|yellow|green|blue|gray";
+			var color='FFFFFF|#DDDDDD|#FFFFFF|#99FFFF|#66FFFF|#33FFFF|#00FFFF|#CCCCFF|#9999FF|#5555FF|#0000FF';
+			color=color.split("|");
+			document.getElementById("intext").style.color=color[parseInt(Math.random() * color.length)];
+		} 
+//			setInterval("changeColor()",400);
+	</script>
+</body>
+</html>
