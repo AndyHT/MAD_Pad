@@ -10,7 +10,7 @@
 	"icons": {
 		"72": "icon.png"
 	},
-	"launch_path": "index.html",/*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
+	"launch_path": "login.html",/*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
 	"developer": {
 		"name": "",/*开发者名称*/
 		"email": "",/*开发者邮箱地址*/
@@ -188,6 +188,81 @@
 					"xxhdpi": ""
 				}
 			}
+		}
+	},
+	"dependencies": {
+		"pages": {
+			"login.html": {
+				"resources": [
+					"js/sever.js",
+					"img/user/MobilePhoneNum.png",
+					"img/user/LoginPassword.png",
+					"js/mui.min.js",
+					"css/mui.min.css",
+					"css/gjq.css",
+					"img/user/icon.png",
+					"fonts/mui.ttf"
+				],
+				"refer": [
+					"text.html"
+				],
+				"priority": 0
+			},
+			"text.html": {
+				"resources": [
+					"js/angular.js",
+					"js/ng.js",
+					"js/sever.js",
+					"js/mui.min.js",
+					"css/mui.min.css",
+					"css/gjq.css"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"img/user/RemovedItemIcon.png",
+				"img/user/gg.jpg",
+				"img/user/Oval 140.png",
+				"img/user/PlayableIcon.png",
+				"img/user/detail-annotation.png",
+				"img/user/AdUsedSelected.png",
+				"img/user/AdUsedIcon.png",
+				"img/user/ProfitIcon.png",
+				"img/user/NiCheng.png",
+				"img/user/validate-right.png",
+				"img/user/MainPageSelected.png",
+				"img/user/SheJiao.png",
+				"img/user/other.png",
+				"img/user/validate-wrong.png",
+				"img/user/ShoppingItem.png",
+				"img/user/annotation.png",
+				"img/user/MainPageIcon.png",
+				"img/user/CarIcon.png",
+				"js/mui.js",
+				"img/user/XingShiZhengPic.png",
+				"img/user/UserCenterIcon.png",
+				"img/user/YingShiYuLe.png",
+				"img/user/ZuLin.png",
+				"img/user/ZhaoPin.png",
+				"css/mui.css",
+				"img/user/FuWu.png",
+				"img/user/Group.png",
+				"img/user/JiaoYuLei.png",
+				"img/user/Oval 1402.png",
+				"img/user/UserCenterSelected.png",
+				"img/user/hh.jpg",
+				"img/user/RegPassword.png",
+				"index.html",
+				"img/user/CarFrontIcon.png",
+				"img/user/ProfitSelected.png",
+				"img/user/ShiSu.png",
+				"img/user/yep.png",
+				"img/user/apple.jpg",
+				"img/user/Group 2.png"
+			]
 		}
 	}
 }

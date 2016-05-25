@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <title></title>
-    <script src="js/mui.min.js"></script>
+    <script src="js/mui.min.js"></script> 
+    <link rel="stylesheet" type="text/css" href="css/gjq.css"/>
     <link href="css/mui.min.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="css/gjq_login.css"/>
 </head>
 <body>
 	<div class="mui-container-fluid container" id="container">
-		<center><img class="icon" src="img/user/icon.png"/></center>
 		<center><a class="move-ad">移动的广告MAD</a></center>
 			<div class="mui-input-row login">
 				<label><img class="input-img" src="img/user/MobilePhoneNum.png"/><a class="input-a">:</a></label>
@@ -20,17 +20,10 @@
 				<label><img class="input-img" src="img/user/LoginPassword.png" /><a class="input-a">:</a></label>
 				<input type="text" class="mui-input-clear mui-input input-log" id="password" placeholder="密码"/>
 			</div>
-			<!--<button class="mui-btn-block login-btn" id="toadcenter">
-				登录
-			</button>-->
-			<button class="mui-btn-block login-btn" id="login">
+			<button class="mui-btn-block login-btn " id="login" style="width: 80%;">
 				登录
 			</button>
 			<h6><a id="test"></a></h6>
-			<div class="login-bottom">
-				<a class="bot-left" id="tosignup">没有账号，现在注册</a>
-				<a class="bot-right" id="toFindPw">忘记密码</a>
-			</div>
 	</div>
 	<script type="text/javascript">
 		document.getElementById('container').style.height=document.documentElement.clientHeight+"px";
@@ -38,22 +31,8 @@
 					statusBarBackground: '#D4EBEB',
 					preloadLimit:3,
 					preloadPages:[
-//					{
-//						url:"ad-center.html",
-//						id:"ad-center",
-//						styles:{
-//							popGesture:"none"
-//						}
-//					},
 					{
-						url:'signup.html',
-						id:"signup",
-						styles:{
-							popGesture:'hide'
-						}
-					},
-					{
-						url:'toFindPw.html',
+						url:'text.html',
 						id:'toFindPW',
 						styles:{
 							popGesture:"none"
@@ -62,23 +41,6 @@
 					]
 				});
 		mui.plusReady(function(){
-			var tosignup=document.getElementById('tosignup');
-			tosignup.addEventListener('tap',function(event){
-			plus.webview.show('signup','pop-in');
-		},false);
-//		var toadcenter=document.getElementById('toadcenter');
-//			toadcenter.addEventListener('tap',function(){
-//			plus.webview.show("ad-center","pop-in");
-//			plus.navigator.setStatusBarBackground("#41B17C");
-//			plus.navigator.setStatusBarStyle( "UIStatusBarStyleBlackOpaque" );
-//			},false);
-		
-		var toFindPw=document.getElementById('toFindPw');
-			toFindPw.addEventListener('tap',function(){
-				plus.webview.show("toFindPW","pop-in");
-				plus.navigator.setStatusBarBackground("#41B17C");
-				plus.navigator.setStatusBarStyle( "UIStatusBarStyleBlackOpaque" );
-			},false);
 		var navi = plus.navigator;
 		});
 	</script>
@@ -91,7 +53,8 @@
 			mui.ajax(severUrl+'/login',{
 				data:{
 					username:username,
-					password:password
+					password:password,
+					device:'pad'
 				},
 				dataType:'json',
 				type:'post',
@@ -106,7 +69,7 @@
 					*/
 					if(data.errCode==0){
 						mui.openWindow({
-					url:'ad-center.html',
+					url:'text.html',
 					show:{
 						anishow:'pop-in'
 					},
