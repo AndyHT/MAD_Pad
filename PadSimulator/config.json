@@ -1,0 +1,9 @@
+{
+  "testBaseURL": "http://localhost:4000",
+  "apikey": "e521d4b038f8fb18042f22d5042a9e9d",
+  "user": {
+    "name": "18521037217",
+    "password": "qqqqqq"
+  },
+  "token": "080ac660399d08dadc53d885008dba4c3fb064f7170a36bb99bd52e83a7fdd7b"
+}

@@ -1,28 +1,39 @@
+'use strict';
+
 var request = require('request');
 var Q = require('q');
 
-var user = {
-    name: '',
-    password: ''
-};
+var Config = require('./config.json');
 
-var baseURL = '';
+module.exports = Login;
 
+function Login(obj) {
+  var key;
+  for (key in obj) {
+    this[key] = obj[key];
+  }
+}
 
-function login() {
+Login.login = function(name, pass) {
     var deferred = Q.defer();
-    
-    request(baseURL, function (error, response, body) {
+    var loginURL = Config.testBaseURL + '/user/login'
+
+    request.post(loginURL, {
+      form:{
+        username: name,
+        password: pass
+      }
+    },function (error, response, body) {
         if (!error && response.statusCode === 200) {
             console.log(body);
             var jsonBody = JSON.parse(body);
             var token = jsonBody.token;
-            
-            deferred.resovle(token);
+
+            deferred.resolve(token);
         } else {
-            deferred.reject(new Error('登录失败'));
+            deferred.reject(new Error('登录失败:' + error.message));
         }
     });
-    
+
     return deferred.promise;
 }
