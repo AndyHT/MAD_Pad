@@ -22,73 +22,57 @@ var rectangle = {
   endLong: 121.75
 }
 
-var latGap = rectangle.endLat - rectangle.startLat;
-var lonGap = rectangle.endLong - rectangle.startLong;
 
 // 生成经纬度坐标
-function generatorCoordinate() {
+function generatorCoordinate(region) {
+  var latGap = region.endLat - region.startLat;
+  var lonGap = region.endLong - region.startLong;
+
   return {
-    latitude: rectangle.startLat + Math.random().toFixed(2) * latGap,
-    longitude: rectangle.startLong + Math.random().toFixed(2) * lonGap
+    latitude: region.startLat + Math.random().toFixed(2) * latGap,
+    longitude: region.startLong + Math.random().toFixed(2) * lonGap
   };
 }
 
 Generator.judgeCoordinate = function(token) {
   var deferred = Q.defer();
   var jsonData;
-  var coordinate;
+  var coordinate = { // 31.227458, 121.473153
+    latitude: 31.227458,
+    longitude: 121.473153
+  }
   var url;
   var response;
+  var i = 0;
 
   try {
-    // while(true) {
-      coordinate = generatorCoordinate();
-      console.log(coordinate);
-      url = 'http://restapi.amap.com/v3/geocode/regeo?location=' + coordinate.latitude + ',' + coordinate.longitude + '&key=d283b9b9e40cb549d56b80a1e4551054';
-
-      response = JSON.parse(request('GET', url).body);
-      console.log(response);
-      if ('上海市' === response.regeocode.addressComponent.province) {
-        deferred.resolve({
-          token: token,
-          coordinate: coordinate
-        });
-        // break;
-      }
-      // break;
+    // while (true && i < 5) {
+    //   coordinate = generatorCoordinate(rectangle);
+    //   // console.log(coordinate);
+    //   url = 'http://restapi.amap.com/v3/geocode/regeo?location=' + coordinate.latitude + ',' + coordinate.longitude + '&key=d283b9b9e40cb549d56b80a1e4551054';
+    //
+    //   response = JSON.parse(request('GET', url).body);
+    //   // console.log(response);
+    //   if ('上海市' === response.regeocode.addressComponent.province) {
+    //     // 获取到一个位置
+    //     deferred.resolve({
+    //       token: token,
+    //       coordinate: coordinate
+    //     });
+    //     break;
+    //   }
+    //   i += 1;
     // }
+
+    deferred.resolve({
+      'token': token,
+      'coordinate': coordinate
+    });
   } catch (error) {
     console.log(error);
-    deferred.reject(new Error('判断是否在上海时失败'));
-  }
 
-  // 高德地图判断是否在上海
-  // request(url, function (error, response, body) {
-  //   if (!error && response.statusCode === 200) {
-  //     // console.log(body);
-  //     try {
-  //       jsonData = JSON.parse(body);
-  //       // console.log(jsonData.regeocode.addressComponent.province);
-  //
-  //       // 在上海的话返回经纬度，不在上海就再生成一条
-  //
-  //
-  //
-  //       if ('上海市' === jsonData.regeocode.addressComponent.province) {
-  //         deferred.resolve({
-  //           token: token,
-  //           coordinate: coordinate
-  //         });
-  //       } else {
-  //         deferred.reject(new Error('不在上海'));
-  //       }
-  //     } catch (err) {
-  //       deferred.reject(err);
-  //     }
-  //   } else {
-  //     deferred.reject(new Error('没有获取到数据' + error.message));
-  //   }
-  // });
-  //
+    // 获取数据错误，需要判断错误类型
+    deferred.reject(error);
+  }
   return deferred.promise;
 };
